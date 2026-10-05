@@ -1,0 +1,28 @@
+# Local secrets (keep the example configuration)
+.env
+.env.*
+!.env.example
+
+# Python environments, bytecode, and tooling caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Frontend dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+
+# Local session state, logs, and OS metadata
+__agent__/
+*.log
+.DS_Store
