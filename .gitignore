@@ -16,9 +16,7 @@ __pycache__/
 .coverage.*
 htmlcov/
 
-# Frontend dependencies and build output
-node_modules/
-.next/
+# Build output
 dist/
 build/
 
